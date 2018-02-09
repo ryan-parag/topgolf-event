@@ -1,0 +1,29 @@
+// Typography
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+$font: 'Source Sans Pro';
+$base-font-size: 2em;
+
+//weights
+
+$bold: 700;
+$semibold: 600;
+$normal: 400;
+$light:300;
+
+// utilities
+.bold {
+	font-weight: $bold;
+}
+
+.semibold {
+	font-weight: $semibold;
+}
+
+.normal {
+	font-weight: $normal;
+}
+
+.light {
+	font-weight: $light;
+}
