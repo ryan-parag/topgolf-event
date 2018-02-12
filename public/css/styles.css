@@ -615,31 +615,25 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-.hero__form-container {
-  padding: 1.5rem;
+.hubspot-box {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+}
+
+.hubspot-box__title {
   text-align: center;
-  width: 100%;
-  background: white;
-  color: #1f2024;
+  margin-bottom: 1rem;
 }
 
-.hero__form-container .hero__form-title, .hero__form-container .hero__form-subtitle {
+.hubspot-box__title h4, .hubspot-box__title h5 {
   padding: 0;
   margin: 0;
 }
 
-.hero__form-container .hero__form-title {
+.hubspot-box__title h5 {
   font-weight: 600;
-  color: #1f2024;
-  padding: 0;
-  margin: 0;
-}
-
-.hero__form-container .hero__form-subtitle {
-  font-weight: 400;
-  font-size: 1.6rem;
-  color: #c80000;
-  margin-bottom: 1.5rem;
+  font-size: 18px;
 }
 
 .hs-form {
@@ -647,6 +641,10 @@ there.
   font-weight: 400;
   width: 100%;
   margin-bottom: 0;
+}
+
+.hs-form fieldset {
+  max-width: 100%;
 }
 
 .hs-form li:before {
@@ -671,7 +669,7 @@ there.
   margin-bottom: 0.75em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
+  width: 100% !important;
   height: 4rem;
   line-height: 4rem;
   border: 1px solid #e0e0e0;
